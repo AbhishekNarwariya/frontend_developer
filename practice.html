@@ -4,16 +4,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="practice.css">
 </head>
 <body>
-    <script>
-        function add(){
-            return 4+5
-        }
+    <form id="sampleForm">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name"  placeholder="enter name">
+        <label for="password">password</label>
+        <input type="text" id="password" name="password" placeholder="enter password">
+        <label for="age">age</label>
+        <input type="text" id="age" name="age" placeholder="enter age">
 
-        let s = add()
-        document.writeln(s)
-    </script>
+        <button type="button" onclick="myform()">submit</button>
+    </form>
+
+
+
+
+<script src="practice.js"></script>
     
 </body>
 </html>
